@@ -1,4 +1,4 @@
-#### ~By d4s7 | BSec Team
+#### By d4s7 | BSec Team :warning:
 
 
 > In this article I will explain WinAPI codes so you can hack your victim.
