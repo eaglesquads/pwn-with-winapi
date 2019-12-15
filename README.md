@@ -2,7 +2,7 @@
 
 
 > In this article I will explain WinAPI codes so you can hack your victim.
->> This content is fully focused on education and learning. I am not responsible for your actions used in this tutorial.
+> This content is fully focused on education and learning. I am not responsible for your actions used in this tutorial.
 
 Windows API
 : the Windows API is a set of functions that are usually performed by Windows.
