@@ -48,7 +48,32 @@ BOOL ReadProcessMemory(
 | lpBaseAddress | A pointer to the base address of proccess. |
 | lpBuffer | The buffer to proccess. |
 | nSize | The number of bytes. |
-| lpNumberOfBytesRead | The number of bytes transfered to specified buffer.|
+| lpNumberOfBytesRead | The number of bytes transfered to specified buffer. |
 
+[-space¹-]
+
+[-space2-]
+
+- [ ] WriteProcessMemory()
+- Writes data to an area of memory in a specified proccess.
+```cpp
+BOOL WriteProcessMemory(
+  HANDLE  hProcess,
+  LPVOID  lpBaseAddress,
+  LPCVOID lpBuffer,
+  SIZE_T  nSize,
+  SIZE_T  *lpNumberOfBytesWritten
+);
+```
+
+| Term | Description |
+| ----------- | ----------- |
+| hProcess | Handle of proccess. |
+| lpBaseAddress | A pointer to the base address of proccess. |
+| lpBuffer | The buffer to proccess. |
+| nSize | The number of bytes. |
+| lpNumberOfBytesRead | The number of bytes transfered to specified buffer. |
+
+**LEMBRAR DE COLOCAR O RESTO DAS COISAS AQ. POR EXEMPLO, O USO DESSAS FUNÇÕES E EXPLICAÇÃO DE OUTRAS**
 
 
